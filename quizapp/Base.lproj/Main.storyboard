@@ -131,7 +131,7 @@ Can you? Enter your answer in the text box below.</string>
                                     <segue destination="BYZ-38-t0r" kind="show" id="JPf-xs-LRx"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Answers- 1. Chair  2.Cold  3.Clock" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3QC-2R-Fs4">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Answers- 1. E  2.Cold  3.Clock" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3QC-2R-Fs4">
                                 <rect key="frame" x="161" y="188" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -175,12 +175,12 @@ Can you? Enter your answer in the text box below.</string>
                                     <segue destination="Vmp-48-pfu" kind="show" id="fG8-ut-yFl"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ore-Qh-FTx">
-                                <rect key="frame" x="180" y="138" width="240" height="116.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maths-Picture-Riddle.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H9F-ro-R5x">
+                                <rect key="frame" x="177" y="114" width="249" height="134"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" Enter your answer in the text box below." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ore-Qh-FTx">
+                                <rect key="frame" x="186" y="256" width="240" height="116.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">I have hands but i cannot clap. 
-
-Who am I ?  Enter your answer in the text box below.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -237,4 +237,7 @@ Who am I ?  Enter your answer in the text box below.</string>
             <point key="canvasLocation" x="1259" y="1041"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Maths-Picture-Riddle.jpg" width="480" height="291"/>
+    </resources>
 </document>

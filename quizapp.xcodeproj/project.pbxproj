@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55DBDB31C73C917007C94AD /* Maths-Picture-Riddle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A55DBDB21C73C917007C94AD /* Maths-Picture-Riddle.jpg */; };
 		A569541D1C72DEB200134028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569541C1C72DEB200134028 /* AppDelegate.swift */; };
 		A569541F1C72DEB200134028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A569541E1C72DEB200134028 /* ViewController.swift */; };
 		A56954221C72DEB200134028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56954201C72DEB200134028 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A55DBDB21C73C917007C94AD /* Maths-Picture-Riddle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Maths-Picture-Riddle.jpg"; path = "../../Maths-Picture-Riddle.jpg"; sourceTree = "<group>"; };
 		A56954191C72DEB200134028 /* quizapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quizapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A569541C1C72DEB200134028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A569541E1C72DEB200134028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A569541E1C72DEB200134028 /* ViewController.swift */,
 				A56954201C72DEB200134028 /* Main.storyboard */,
 				A56954231C72DEB200134028 /* Assets.xcassets */,
+				A55DBDB21C73C917007C94AD /* Maths-Picture-Riddle.jpg */,
 				A56954251C72DEB200134028 /* LaunchScreen.storyboard */,
 				A56954281C72DEB200134028 /* Info.plist */,
 			);
@@ -231,6 +234,7 @@
 			files = (
 				A56954271C72DEB200134028 /* LaunchScreen.storyboard in Resources */,
 				A56954241C72DEB200134028 /* Assets.xcassets in Resources */,
+				A55DBDB31C73C917007C94AD /* Maths-Picture-Riddle.jpg in Resources */,
 				A56954221C72DEB200134028 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				A56954431C72DEB200134028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56954441C72DEB200134028 /* Build configuration list for PBXNativeTarget "quizappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				A56954461C72DEB200134028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56954471C72DEB200134028 /* Build configuration list for PBXNativeTarget "quizappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				A56954491C72DEB200134028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
